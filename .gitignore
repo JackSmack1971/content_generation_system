@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Virtualenv
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore files generated during testing or running the app
+*.log
+*.pdf
+output/
+
+# Ignore settings or config files containing sensitive data
+config/settings.py
+
+# VS Code settings
+.vscode/
